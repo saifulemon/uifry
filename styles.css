@@ -1,0 +1,27 @@
+/* reusable css */
+@font-face {
+  font-family: Clash Display;
+  src: url("assets/font/ClashDisplay.ttf"), format(".ttf");
+}
+
+* {
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.active {
+  color: #ff5555 !important;
+}
+
+.btn-dark {
+    padding: 12px 38px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.navbar-toggler:focus {
+    border: none !important;
+    box-shadow: none;
+}
