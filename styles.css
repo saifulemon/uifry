@@ -29,6 +29,10 @@ html {
     color: var(--primary-color) !important;
 }
 
+.fw-bold {
+    font-weight: 900 !important;
+}
+
 .btn-dark {
   padding: 12px 38px;
   font-size: 18px;
