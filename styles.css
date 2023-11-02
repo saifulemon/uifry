@@ -15,13 +15,143 @@
 }
 
 .btn-dark {
-    padding: 12px 38px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 4px;
+  padding: 12px 38px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.subtitle {
+  color: #000;
+  text-align: justify;
+  font-family: Clash Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
 }
 
 .navbar-toggler:focus {
-    border: none !important;
-    box-shadow: none;
+  border: none !important;
+  box-shadow: none;
 }
+
+/* hero sec */
+.hero-content {
+  top: 30%;
+}
+.hero-title {
+  max-width: 65%;
+  color: #000;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.hero-subtitle {
+  max-width: 55%;
+}
+
+/* responsive */
+@media (max-width: 769px) {
+  .navbar {
+    background: #fff;
+  }
+  .hero-shadow-bg,
+  .heroimg-shadow {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 55px;
+    max-width: 75%;
+  }
+
+  .hero-subtitle {
+    max-width: 90%;
+  }
+
+  .hero-img {
+    top: 100%;
+    margin-top: 70px;
+    margin-inline: auto !important;
+  }
+
+  .hero-content-img img {
+    max-width: 80% !important;
+    position: absolute;
+    top: 80%;
+  }
+}
+
+@media (max-width: 426px) {
+  .hero-title {
+    font-size: 42px;
+    max-width: 90%;
+  }
+
+  .hero-subtitle {
+    max-width: 90%;
+  }
+
+  .get-start .btn-dark {
+    padding: 10px 28px;
+    font-size: 17px;
+  }
+
+  .hero-img {
+    top: 100%;
+    margin-top: 160px;
+    margin-inline: auto !important;
+  }
+
+  .hero-img img {
+    margin-left: 0 !important;
+  }
+
+  .hero-content-img img {
+    max-width: 90% !important;
+    position: absolute;
+    top: 90%;
+  }
+}
+
+
+@media (max-width: 376px) {
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-title {
+      font-size: 36px;
+      max-width: 100%;
+    }
+
+    .hero-subtitle {
+      max-width: 100%;
+      padding-inline: 10px;
+    }
+  
+    .get-start .btn-dark {
+      padding: 10px 28px;
+      font-size: 17px;
+    }
+  
+    .hero-img {
+      top: 100%;
+      margin-top: 180px;
+      margin-inline: auto !important;
+    }
+  
+    .hero-img img {
+      margin-left: 0 !important;
+    }
+  
+    .hero-content-img img {
+      max-width: 90% !important;
+      position: absolute;
+      top: 90%;
+    }
+  }
