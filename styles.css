@@ -8,10 +8,25 @@
   font-family: Clash Display;
   font-size: 18px;
   font-weight: 800;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #ff5555
 }
 
 .active {
-  color: #ff5555 !important;
+  color: var(--primary-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
 }
 
 .btn-dark {
@@ -29,6 +44,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
+  max-width: 90%;
   text-transform: capitalize;
 }
 
